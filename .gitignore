@@ -1,0 +1,23 @@
+
+**/*.js.map
+**/release/*
+
+# **/client/**/*.js
+
+!**/client/www/**/*.js
+
+
+
+www/data/**
+www/logs/**
+
+
+data.db
+
+api.txt
+appconfig.json
+.vscode/settings.json
+
+
+
+

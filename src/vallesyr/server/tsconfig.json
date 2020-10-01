@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"noLib": true,
+		"noEmit": true,
+		"noImplicitAny": true,
+		"baseUrl": ".",
+		"paths": {
+			"*": [
+				"*",
+				"../../../libs/*"
+			]
+		}
+	}
+}

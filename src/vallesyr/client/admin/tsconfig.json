@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "declaration": true,
+        "sourceMap": true,
+        "outFile": "./build/build.js",
+    },
+    "references": [
+        {
+            "path": "../../../slib/client/all"
+        },
+        {
+            "path": "../../../admin/client/admin"
+        }
+    ],
+    "exclude": [
+        "./build"
+    ]
+}

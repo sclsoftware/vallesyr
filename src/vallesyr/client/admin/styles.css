@@ -1,0 +1,68 @@
+
+
+
+.vallesyr_report .searchRow {
+    display: flex;
+    align-items: center;
+}
+
+.vallesyr_report .searchRow .textIconInput {
+    max-width: 130px;
+    margin-right:  10px;
+}
+.vallesyr_report .searchRow > span {
+    margin-right:  10px;
+}
+.vallesyr_report .searchRow .autocompleteDropdown {
+    max-width: 170px;
+}
+.vallesyr_report td.error {
+    color: red;
+}
+.vallesyr_report .searchRow .button {
+    margin-left: 10px;
+}
+.vallesyr_report table {
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.vallesyr_report tr:nth-child(even) {
+    background-color: #fbfcfd;
+}
+.vallesyr_report th {
+    border-bottom: solid 1px #888;
+}
+.vallesyr_report th,
+.vallesyr_report td {
+    white-space: nowrap;
+    padding: 3px 10px;
+    vertical-align: top;
+}
+.vallesyr_report td {
+    border-top: solid 1px #ccc;
+}
+.vallesyr_report td.label {
+    font-weight: bold;
+}
+.vallesyr_report th.value,
+.vallesyr_report td.value {
+    text-align: right;
+}
+.vallesyr_report td.total {
+    font-weight: bold;
+}
+.vallesyr_report td.leftBorder {
+    border-left: solid 1px #888;
+    text-align: right;
+}
+.vallesyr_report td.totalRow {
+    background-color: #ddf5dd;
+}
+.vallesyr_report tr.totals {
+    border-top: solid 1px #888;
+    background-color: unset;
+}
+.vallesyr_report td.error {
+    color: red;
+}
